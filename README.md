@@ -85,3 +85,15 @@ PASTEBIN_ADDR=localhost:8000
 PASTEBIN_CRYPT_KEY=MyImportantSecret
 PASTEBIN_REDIS_URL=redis://localhost:6379
 ```
+
+
+`个人补充:`
+```
+- https://github.com/Nugine/pastebin-server 
+- 运行环境:
+  - Redis-5.0.7 - run redis-server 
+  - sudo apt install apache2-utils -y
+  - python3 bench/save.py
+  - python3 bench/find.py
+  - curl 127.0.0.1:8088/record/RXJC474S6MCPDW
+```
